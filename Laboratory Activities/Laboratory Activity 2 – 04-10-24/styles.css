@@ -11,9 +11,9 @@ html, body {
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
-    border-radius: 10px;
-    border: 1px solid #c8e8ca;
-    background-color: rgb(255, 255, 255);
+    border-radius: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: rgba(42, 42, 42, 0.537);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     transition: box-shadow 0.3s, transform 0.3s;
 }
@@ -21,7 +21,7 @@ html, body {
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 40px;
-    color: #333;
+    color: #ffffff;
 }
 
 .container {
@@ -39,15 +39,15 @@ h1{
     display: flex;
     flex-wrap: wrap;
     height: 480px; 
-    width: 700px;
+    width: 660px;
     margin-top: 100px;
     justify-content: center;
-    padding: 15px;
-    border-radius: 8px;
+    padding: 8px;
+    border-radius: 18px;
     margin-top: 0px;
-    gap: 10px;
-    background-color: rgba(255, 255, 255, 0.693);
-    border: 1px solid #c8e8ca;
+    gap: 3px;
+    background-color: rgba(42, 42, 42, 0.537);
+    border: 1px solid rgba(0, 0, 0, 0.2);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     transition: box-shadow 0.3s, transform 0.3s;
 }
