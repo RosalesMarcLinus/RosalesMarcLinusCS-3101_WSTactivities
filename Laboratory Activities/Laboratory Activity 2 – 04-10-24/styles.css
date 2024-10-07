@@ -18,7 +18,7 @@ html, body {
     transition: box-shadow 0.3s, transform 0.3s;
 }
 
-h1{
+h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 40px;
     color: #ffffff;
@@ -31,45 +31,41 @@ h1{
     align-items: center;
     height: 100vh;
     width: 100vw;
-    background: radial-gradient(circle, #c8e8ca, rgba(232, 132, 84, 0) 95%); 
-
+    background: radial-gradient(circle, #c8e8ca, rgba(232, 132, 84, 0) 95%);
 }
 
 .container-idv {
     display: flex;
     flex-wrap: wrap;
-    height: 480px; 
-    width: 660px;
-    margin-top: 100px;
     justify-content: center;
     padding: 8px;
     border-radius: 18px;
-    margin-top: 0px;
     gap: 3px;
     background-color: rgba(42, 42, 42, 0.537);
     border: 1px solid rgba(0, 0, 0, 0.2);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     transition: box-shadow 0.3s, transform 0.3s;
+    height: auto;
+    max-width: 660px;
+    width: 100%;
 }
 
 #title {
     height: 130px;
     width: 315px;
-    background: radial-gradient(circle,white, #c8e8ca); 
+    background: radial-gradient(circle, white, #c8e8ca);
     color: #333;
-    font-size: 22px; 
-    font-weight: bold; 
+    font-size: 22px;
+    font-weight: bold;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 #third-qoute {
-    width: 310px; 
-    height: 170px; 
-
+    width: 310px;
+    height: 170px;
 }
 
 #third {
@@ -77,14 +73,13 @@ h1{
     height: 160px;
     background: linear-gradient(135deg, #225e5e, #c8e8ca);
     color: white;
-    font-size: 16px; 
+    font-size: 16px;
     font-weight: normal;
     text-align: left;
-    display: flex; 
+    display: flex;
     flex-direction: column;
-    justify-content: center; 
-    padding: 5px; 
-
+    justify-content: center;
+    padding: 5px;
 }
 
 #goals h3 {
@@ -118,7 +113,7 @@ h1{
     transition: box-shadow 0.3s, transform 0.3s;
     border-radius: 8px;
     margin: 5px;
-}   
+}
 
 .container-idv-vision:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
@@ -126,11 +121,59 @@ h1{
 }
 
 .container-idv h3 {
-    font-size: 18px; 
+    font-size: 18px;
     margin: 0 0 5px 0;
 }
 
 .container-idv p {
     margin: 2px 0;
     font-size: 13px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    #title {
+        font-size: 18px;
+    }
+
+    #third h3 {
+        font-size: 16px;
+    }
+
+    .container-idv {
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    .container-idv-vision {
+        height: 100px;
+        width: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    #title {
+        font-size: 16px;
+    }
+
+    #third h3 {
+        font-size: 14px;
+    }
+
+    .container-idv {
+        width: 95%;
+        margin-top: 5px;
+    }
+
+    .container-idv-vision {
+        height: 80px;
+        width: 100px;
+    }
 }
